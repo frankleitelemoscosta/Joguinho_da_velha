@@ -97,9 +97,9 @@ int main()
             linha = linha - 1;
             coluna = coluna - 1;
 
-            if(matriz[linha][coluna] == 'X')
+            if(matriz[linha][coluna] == 'X' || matriz[linha][coluna] == 'O')
             {
-                cout<<"Você tentou preencher onde seu adversário preencheu, preencha novamente onde estiver com o sinal +"<<endl;
+                cout<<"Você tentou preencher onde seu adversário preencheu ou onde você ja havia preenchido, preencha novamente onde estiver com o sinal +"<<endl;
                 verificador = true;
             }
 
@@ -168,9 +168,9 @@ int main()
                 linha = linha - 1;
                 coluna = coluna - 1;
 
-                if(matriz[linha][coluna] == 'O')
+                if(matriz[linha][coluna] == 'O' || matriz[linha][coluna] == 'X')
                 {
-                    cout<<"Você tentou preencher onde seu adversário preencheu, preencha novamente onde estiver com o sinal +"<<endl;
+                    cout<<"Você tentou preencher onde seu adversário preencheu ou onde você ja havia preenchido, preencha novamente onde estiver com o sinal +"<<endl;
                     verificador = true;
                 }
 
