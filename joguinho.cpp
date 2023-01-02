@@ -50,6 +50,7 @@ int main()
         contador_jogador_2_diagonal_principal = 0;
         contador_jogador_1_diagonal_secundaria = 0;
         contador_jogador_2_diagonal_secundaria = 0;
+        
 
         if(vez_jogador_2 == 1)
         {
@@ -308,6 +309,7 @@ int main()
 
     //fim
         
+    system("clear");
 
     //informativo aos usuários:
 
