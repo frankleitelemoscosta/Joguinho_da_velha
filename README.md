@@ -1,6 +1,6 @@
 # Joguinho_da_velha
 
-## INTRODUÇÃO
+## DESCRIÇÃO
 
 Este projeto foi desenvolvido com o intuito de revisar conceitos aprendidos na faculdade
 e replicar um projeto de um colega próximo, tinha em mente na construção apenas de um jogo
